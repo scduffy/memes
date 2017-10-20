@@ -21,7 +21,7 @@ def slicer_loop(memed_string):
 
 
 def main():
-    string = str(input("What do you want to translate"))
+    string = str(input("Translate to bold: "))
     string = memeify(string)
     slicer_loop(string)
 
